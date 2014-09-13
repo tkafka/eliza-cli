@@ -7,7 +7,6 @@
     "start": "node ./eliza"
   },
   "dependencies": {
-    "cli-color": "^0.3.2",
     "elizabot": "0.0.2"
   },
   "devDependencies": {},

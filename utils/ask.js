@@ -1,4 +1,3 @@
-var clc = require('cli-color');
 var readline = require('readline');
 
 
