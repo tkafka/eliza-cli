@@ -7,11 +7,13 @@ module.exports = function ask(question, callback) {
 		output: process.stdout
 	});
 
-	rl.write(question);
-	rl.write('\n');
+	// rl.write(question);
+	// rl.write('\n');
+	console.log(question);
 	rl.question('> ', function (answer) {
-		rl.write('\n');
+		// rl.write('\n');
 		rl.close();
+		console.log();
 
 		callback(null, answer);
 	});
