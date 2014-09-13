@@ -1,0 +1,15 @@
+{
+  "name": "eliza-cli",
+  "description": "command-line eliza",
+  "author": "Tomas Kafka <tk@tomaskafka.com>",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node ./eliza"
+  },
+  "dependencies": {
+    "cli-color": "^0.3.2",
+    "elizabot": "0.0.2"
+  },
+  "devDependencies": {},
+  "engine": "node >= 0.6.6"
+}
