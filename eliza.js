@@ -4,6 +4,8 @@ var ask = require('./utils/ask');
 var eliza = new ElizaBot();
 var elizaQuestion = eliza.getInitial();
 
+console.log("(Note: type 'quit' to, well, quit :))");
+console.log();
 
 function askEliza() {
 	if (eliza.quit) {
